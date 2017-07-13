@@ -42,6 +42,6 @@ See [LICENSE](LICENSE) file for details.
 
 ## Help Wanted
 
-The code is in good shape, and I believe it is still useful somewhere. However, I do not have the bandwidth to maintain this project. If you are willing to contribute, [contact me](mailto:Qianyi.Zhou@gmail.com), or submit [issues](issues) and [pull requests](pulls).
+The code is in good shape, and I believe it is still useful somewhere. However, I do not have the bandwidth to maintain this project. If you are willing to contribute, [contact me](mailto:Qianyi.Zhou@gmail.com), or submit [issues](https://github.com/qianyizh/TopoMender/issues) and [pull requests](https://github.com/qianyizh/TopoMender/pulls).
 
 The current most immediate enhancement is to migrate TopoMender into a CMake build system and make it cross-platform. Please contact me if you can provide help for this.
