@@ -16,6 +16,8 @@ Editing The Topology of 3D Models by Sketching
 Tao Ju, Qian-Yi Zhou and Shi-Min Hu  
 SIGGRAPH 2007
 
+Visit the [project page](http://qianyi.info/topomender.html) for more details.
+
 ## Usage
 
 The project is ancient. I am not intending to provide support. You are at your own risk.
