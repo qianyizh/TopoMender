@@ -1,6 +1,5 @@
 #include "StdAfx.h"
 #include ".\memorymanager.h"
-#using <mscorlib.dll>
 
 CMemoryManager::CMemoryManager(void)
 {
