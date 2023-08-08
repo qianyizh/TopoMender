@@ -1,11 +1,12 @@
 #include "StdAfx.h"
 #include ".\singlehashmap.h"
-#using <mscorlib.dll>
+//#using <mscorlib.dll>
 
 CSingleHashMap::CSingleHashMap(CConstant * pConstant, int nSize)
 {
 	m_pConstant = pConstant;
-	for (int i = 0; i < 40; i++) {
+	int i = 0;
+	for (; i < 40; i++) {
 		if (nSize * 2 < pConstant->m_pHashSize[i])
 			break;
 	}

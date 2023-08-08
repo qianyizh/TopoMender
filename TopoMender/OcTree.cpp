@@ -835,7 +835,8 @@ void COcTree::RecTraversalPoint(UCHAR * pNode[2][2][2], UINT64 n64Position[2][2]
 								m_nVertexNum ++;
 							} else {
 								int iIndex = i * 4 + j * 2 + k;
-								for (int l = 0; l < iIndex; l++)
+								int l = 0;
+								for (; l < iIndex; l++)
 									if (n64Position[i][j][k] == n64Position[(l >> 2) & 1][(l >> 1) & 1][l & 1])
 										break;
 								if (l == iIndex) {
@@ -866,7 +867,8 @@ void COcTree::RecTraversalPoint(UCHAR * pNode[2][2][2], UINT64 n64Position[2][2]
 									bWrite = true;
 								} else {
 									int iIndex = i * 4 + j * 2 + k;
-									for (int l = 0; l < iIndex; l++)
+									int l = 0;
+									for (; l < iIndex; l++)
 										if (n64Position[i][j][k] == n64Position[(l >> 2) & 1][(l >> 1) & 1][l & 1])
 											break;
 									if (l == iIndex) {
@@ -2780,7 +2782,8 @@ bool COcTree::RecDualThinFace(UCHAR * pNode[2], UINT64 n64Position[2], int nLeve
 					}
 				}
 			} else {
-				for (int i = 0; i < 2; i++)
+				int i = 0;
+				for (; i < 2; i++)
 					if (GET_CELL_SIMPLE(((LEAF_NODE *)pNode[i])->m_n64SimpleTag, 0) == 2)
 						break;
 				if (i < 2) {
@@ -3103,7 +3106,8 @@ bool COcTree::RecDualThinPoint(UCHAR * pNode[2][2][2], UINT64 n64Position[2][2][
 					}
 				}
 			} else {
-				for (int i = 0; i < 2; i++)
+				int i = 0;
+				for (; i < 2; i++)
 				{
 					for (int j = 0; j < 2; j++)
 						for (int k = 0; k < 2; k++)

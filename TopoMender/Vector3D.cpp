@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include ".\Vector3D.h"
-#using <mscorlib.dll>
+//#using <mscorlib.dll>
 
 CVector3D& CVector3D::operator=(const CVector3D& v)
 {	
